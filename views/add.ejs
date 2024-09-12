@@ -1,0 +1,70 @@
+<%- include('partials/header') %>
+<div>
+  <h3>Add A New Book</h3>
+  <form action="/add" method="post">
+    <div class="mb-3">
+      <label for="book-title" class="form-label">Book Title</label>
+      <input
+        type="text"
+        name="title"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Book Title"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="author" class="form-label">Author</label>
+      <input
+        type="text"
+        name="author"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Author"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="isbn" class="form-label">ISBN</label>
+      <input
+        type="text"
+        name="isbn"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="ISBN-13"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="date" class="form-label">Date Read</label>
+      <input
+        type="date"
+        name="date"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Enter the date you read this book last"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="rating" class="form-label">Rating</label>
+      <input
+        type="number"
+        name="rating"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Rate the book over 10"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Description</label
+      >
+      <textarea
+        class="form-control"
+        name="description"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </div>
+  </form>
+</div>

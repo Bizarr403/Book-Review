@@ -1,0 +1,41 @@
+.container{background-color:#B7B5E4;
+margin-bottom: 30px;
+
+}
+.container-fluid{
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: 100px;
+    background-color:#B7B5E4;
+
+}
+.nav-brand{
+font-family: "Nerko One", cursive;
+font-weight: 400;
+font-style: normal;     
+color: #847979;
+font-size: 50px;
+}
+h3{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;     
+    color: #847979;
+      
+}
+.links{
+    text-decoration: none;
+    color: darkgray;
+    size: 20px;
+
+}
+.card-img-top{
+    height: 200px;
+    width: 287px;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
